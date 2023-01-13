@@ -71,9 +71,9 @@ def radial(rho_c):
     #Interpolation -in work-
     #density, pressure = np.loadtxt('AP4_cgs.dat', float, usecols=(0, 1), unpack=True)
 
-    #rho_min = density[4]  # listedeki 5. değer
+    #rho_min = density[4]  #  5. value in the list
     #P_min = pressure[4]
-    #rho_max = density[-1]  # listedeki sondeğer
+    #rho_max = density[-1]  # last value in the list
     #P_max = pressure[-1]
 
     #P_interp = interp1d(density, pressure, kind='linear')  # kind='cubic'
